@@ -8,6 +8,7 @@ Malá ukázková aplikace ve Vue 3, která vede od základních konceptů po pok
 - komunikace mezi komponentami pomocí props a emits
 - composable funkce a asynchronní stav
 - pokročilejší patterny jako `teleport` nebo dynamické přepínání UI
+- varianta s `vue-router` a více stránkami
 
 ## Spuštění lokálně
 
@@ -29,6 +30,7 @@ Použij, pokud chceš:
 Workflow je připravený v [`.github/workflows/deploy-pages.yml`](/.github/workflows/deploy-pages.yml).
 
 Poznámka: v souboru `deploy-pages.yml` je nastavené `BASE_PATH=/Vue3/`. Pokud bude mít repo jiný název, uprav tuto hodnotu.
+Poznámka k routeru: tahle ukázka používá hash historii, takže budou fungovat i přímé odkazy na podstránky na GitHub Pages bez další serverové konfigurace.
 
 ### GitHub Codespaces
 
